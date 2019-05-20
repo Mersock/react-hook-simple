@@ -12,7 +12,6 @@ const useResources = (resource) => {
             })(resource);
         }, [resource]
     );
-
     return resources;
 };
 
